@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- favicon link  -->
+    <link rel="icon" type="image/x-icon" href="assets/img/fev-icon.png">
+
+    <!-- Bootstrap link  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+
+    <!-- Font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Unbounded&display=swap" rel="stylesheet">
+
+    <!-- Owl slider css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <!-- Custom css link  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+</head>
+<body>
+
+  <!-- Navbar start -->
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+     <a class="navbar-brand" href="index.html">
+        <img class="fullscreen" src="assets/img/main-logo.png" alt="">
+        <img class="smallscreen" src="assets/img/mian-logo-only.png" alt="">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <span class="line"></span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Find a Mentor</a>
+            <span class="line"></span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="how-it-work.html">How it Works</a>
+            <span class="line"></span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+            <span class="line"></span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="become-a-mentor.html">Become a Mentor</a>
+            <span class="line"></span>
+          </li>
+        </ul>
+      </div>
+      <div class="btn-div">
+        <a href="login.html" class="link-btn">Login</a>
+        <a href="sigh-up.html" class="bg-btn">Free Signup</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Navbar end -->
+
+  <!-- Search sort start  -->
+
+  <div class="find-mentor-wrpp">
+    <div class="container">
+        <div class="search-sort">
+            <div class="search-btn">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <div class="aro-btn">
+                  <span class="line"></span>
+                  <a href="" class="green-btn">Subscribe</a>
+                </div>
+            </div>
+
+            <select>
+                <option disabled hidden>Select...</option>
+                <option selected>Sort by Long card</option>
+                <option>Sort by short csrd</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="main-card-wrpp">
+                    <form id="form1">
+                        <div class="long-card">
+                            <div class="left-img">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-4">
+                                        <img src="assets/img/full-card-avtar.png" alt="">
+                                        <h5>Utkarshini Arora</h5>
+                                        <p>Consultant</p>
+                                        <h5>5.0
+                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.98 3.49891C12.0223 3.39574 12.0944 3.30748 12.1869 3.24537C12.2795 3.18325 12.3885 3.15009 12.5 3.15009C12.6115 3.15009 12.7205 3.18325 12.8131 3.24537C12.9057 3.30748 12.9777 3.39574 13.02 3.49891L15.145 8.60991C15.1848 8.70554 15.2502 8.78835 15.334 8.84922C15.4178 8.91009 15.5168 8.94666 15.62 8.95491L21.138 9.39691C21.637 9.43691 21.839 10.0599 21.459 10.3849L17.255 13.9869C17.1765 14.0541 17.118 14.1416 17.0859 14.2399C17.0537 14.3381 17.0493 14.4433 17.073 14.5439L18.358 19.9289C18.3839 20.0369 18.3771 20.1502 18.3386 20.2544C18.3001 20.3586 18.2315 20.449 18.1417 20.5143C18.0518 20.5796 17.9446 20.6168 17.8336 20.6211C17.7226 20.6255 17.6128 20.5969 17.518 20.5389L12.793 17.6539C12.7048 17.6001 12.6034 17.5717 12.5 17.5717C12.3967 17.5717 12.2953 17.6001 12.207 17.6539L7.48203 20.5399C7.38729 20.5979 7.27748 20.6265 7.16649 20.6221C7.05549 20.6178 6.94828 20.5806 6.8584 20.5153C6.76851 20.45 6.69999 20.3596 6.66148 20.2554C6.62297 20.1512 6.6162 20.0379 6.64203 19.9299L7.92703 14.5439C7.95086 14.4433 7.94648 14.3381 7.91437 14.2398C7.88226 14.1415 7.82366 14.054 7.74503 13.9869L3.54103 10.3849C3.45684 10.3125 3.39594 10.2169 3.36598 10.1099C3.33602 10.003 3.33834 9.88965 3.37264 9.78406C3.40695 9.67846 3.47172 9.58536 3.55879 9.51648C3.64587 9.44759 3.75137 9.40599 3.86203 9.39691L9.38003 8.95491C9.48328 8.94666 9.58225 8.91009 9.66606 8.84922C9.74986 8.78835 9.81525 8.70554 9.85503 8.60991L11.98 3.49891Z" fill="#FCB83B" stroke="#FCB83B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </h5>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="details">
+                                            <h5 class="green-txt">Free</h5>
+                                            <p>I am a Chief Developer with demonstrated experience in building pixel-perfect websites and mobile apps in ed-tech, fin-tech and eCommerce companies.  I have worked with WhiteHatJr, Geekster, SMart Audit and Relevel By Unacademy.......</p>
+                                            <div class="button-wrpp">
+                                                <button class="light-yellow">Mern Stack</button>
+                                                <button class="light-yellow">Gatsby</button>
+                                                <button class="light-yellow">Blockchain</button>
+                                                <button class="light-yellow">React Navtive</button>
+                                            </div>
+                                            <div class="req-view-btn">
+                                                <a href="" class="req-btn">Request a call</a>
+                                                <a href="view-profile.html" class="view-btn">View Profile</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="long-card">
+                            <div class="left-img">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-4">
+                                        <img src="assets/img/uttkarsh-full.png" alt="">
+                                        <h5>Uttkarsh Singh</h5>
+                                        <p>Consultant</p>
+                                        <h5>5.0
+                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.98 3.49891C12.0223 3.39574 12.0944 3.30748 12.1869 3.24537C12.2795 3.18325 12.3885 3.15009 12.5 3.15009C12.6115 3.15009 12.7205 3.18325 12.8131 3.24537C12.9057 3.30748 12.9777 3.39574 13.02 3.49891L15.145 8.60991C15.1848 8.70554 15.2502 8.78835 15.334 8.84922C15.4178 8.91009 15.5168 8.94666 15.62 8.95491L21.138 9.39691C21.637 9.43691 21.839 10.0599 21.459 10.3849L17.255 13.9869C17.1765 14.0541 17.118 14.1416 17.0859 14.2399C17.0537 14.3381 17.0493 14.4433 17.073 14.5439L18.358 19.9289C18.3839 20.0369 18.3771 20.1502 18.3386 20.2544C18.3001 20.3586 18.2315 20.449 18.1417 20.5143C18.0518 20.5796 17.9446 20.6168 17.8336 20.6211C17.7226 20.6255 17.6128 20.5969 17.518 20.5389L12.793 17.6539C12.7048 17.6001 12.6034 17.5717 12.5 17.5717C12.3967 17.5717 12.2953 17.6001 12.207 17.6539L7.48203 20.5399C7.38729 20.5979 7.27748 20.6265 7.16649 20.6221C7.05549 20.6178 6.94828 20.5806 6.8584 20.5153C6.76851 20.45 6.69999 20.3596 6.66148 20.2554C6.62297 20.1512 6.6162 20.0379 6.64203 19.9299L7.92703 14.5439C7.95086 14.4433 7.94648 14.3381 7.91437 14.2398C7.88226 14.1415 7.82366 14.054 7.74503 13.9869L3.54103 10.3849C3.45684 10.3125 3.39594 10.2169 3.36598 10.1099C3.33602 10.003 3.33834 9.88965 3.37264 9.78406C3.40695 9.67846 3.47172 9.58536 3.55879 9.51648C3.64587 9.44759 3.75137 9.40599 3.86203 9.39691L9.38003 8.95491C9.48328 8.94666 9.58225 8.91009 9.66606 8.84922C9.74986 8.78835 9.81525 8.70554 9.85503 8.60991L11.98 3.49891Z" fill="#FCB83B" stroke="#FCB83B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </h5>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="details">
+                                            <h5 class="green-txt">Free</h5>
+                                            <p>I am a Chief Developer with demonstrated experience in building pixel-perfect websites and mobile apps in ed-tech, fin-tech and eCommerce companies.  I have worked with WhiteHatJr, Geekster, SMart Audit and Relevel By Unacademy.......</p>
+                                            <div class="button-wrpp">
+                                                <button class="light-yellow">Mern Stack</button>
+                                                <button class="light-yellow">Gatsby</button>
+                                                <button class="light-yellow">Blockchain</button>
+                                                <button class="light-yellow">React Navtive</button>
+                                            </div>
+                                            <div class="req-view-btn">
+                                                <a href="" class="req-btn">Request a call</a>
+                                                <a href="" class="view-btn">View Profile</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="long-card">
+                            <div class="left-img">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-4">
+                                        <img src="assets/img/full-card-avtar.png" alt="">
+                                        <h5>Utkarshini Arora</h5>
+                                        <p>Consultant</p>
+                                        <h5>5.0
+                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.98 3.49891C12.0223 3.39574 12.0944 3.30748 12.1869 3.24537C12.2795 3.18325 12.3885 3.15009 12.5 3.15009C12.6115 3.15009 12.7205 3.18325 12.8131 3.24537C12.9057 3.30748 12.9777 3.39574 13.02 3.49891L15.145 8.60991C15.1848 8.70554 15.2502 8.78835 15.334 8.84922C15.4178 8.91009 15.5168 8.94666 15.62 8.95491L21.138 9.39691C21.637 9.43691 21.839 10.0599 21.459 10.3849L17.255 13.9869C17.1765 14.0541 17.118 14.1416 17.0859 14.2399C17.0537 14.3381 17.0493 14.4433 17.073 14.5439L18.358 19.9289C18.3839 20.0369 18.3771 20.1502 18.3386 20.2544C18.3001 20.3586 18.2315 20.449 18.1417 20.5143C18.0518 20.5796 17.9446 20.6168 17.8336 20.6211C17.7226 20.6255 17.6128 20.5969 17.518 20.5389L12.793 17.6539C12.7048 17.6001 12.6034 17.5717 12.5 17.5717C12.3967 17.5717 12.2953 17.6001 12.207 17.6539L7.48203 20.5399C7.38729 20.5979 7.27748 20.6265 7.16649 20.6221C7.05549 20.6178 6.94828 20.5806 6.8584 20.5153C6.76851 20.45 6.69999 20.3596 6.66148 20.2554C6.62297 20.1512 6.6162 20.0379 6.64203 19.9299L7.92703 14.5439C7.95086 14.4433 7.94648 14.3381 7.91437 14.2398C7.88226 14.1415 7.82366 14.054 7.74503 13.9869L3.54103 10.3849C3.45684 10.3125 3.39594 10.2169 3.36598 10.1099C3.33602 10.003 3.33834 9.88965 3.37264 9.78406C3.40695 9.67846 3.47172 9.58536 3.55879 9.51648C3.64587 9.44759 3.75137 9.40599 3.86203 9.39691L9.38003 8.95491C9.48328 8.94666 9.58225 8.91009 9.66606 8.84922C9.74986 8.78835 9.81525 8.70554 9.85503 8.60991L11.98 3.49891Z" fill="#FCB83B" stroke="#FCB83B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </h5>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="details">
+                                            <h5 class="green-txt">Free</h5>
+                                            <p>I am a Chief Developer with demonstrated experience in building pixel-perfect websites and mobile apps in ed-tech, fin-tech and eCommerce companies.  I have worked with WhiteHatJr, Geekster, SMart Audit and Relevel By Unacademy.......</p>
+                                            <div class="button-wrpp">
+                                                <button class="light-yellow">Mern Stack</button>
+                                                <button class="light-yellow">Gatsby</button>
+                                                <button class="light-yellow">Blockchain</button>
+                                                <button class="light-yellow">React Navtive</button>
+                                            </div>
+                                            <div class="req-view-btn">
+                                                <a href="" class="req-btn">Request a call</a>
+                                                <a href="" class="view-btn">View Profile</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="long-card">
+                            <div class="left-img">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-4">
+                                        <img src="assets/img/uttkarsh-full.png" alt="">
+                                        <h5>Uttkarsh Singh</h5>
+                                        <p>Consultant</p>
+                                        <h5>5.0
+                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.98 3.49891C12.0223 3.39574 12.0944 3.30748 12.1869 3.24537C12.2795 3.18325 12.3885 3.15009 12.5 3.15009C12.6115 3.15009 12.7205 3.18325 12.8131 3.24537C12.9057 3.30748 12.9777 3.39574 13.02 3.49891L15.145 8.60991C15.1848 8.70554 15.2502 8.78835 15.334 8.84922C15.4178 8.91009 15.5168 8.94666 15.62 8.95491L21.138 9.39691C21.637 9.43691 21.839 10.0599 21.459 10.3849L17.255 13.9869C17.1765 14.0541 17.118 14.1416 17.0859 14.2399C17.0537 14.3381 17.0493 14.4433 17.073 14.5439L18.358 19.9289C18.3839 20.0369 18.3771 20.1502 18.3386 20.2544C18.3001 20.3586 18.2315 20.449 18.1417 20.5143C18.0518 20.5796 17.9446 20.6168 17.8336 20.6211C17.7226 20.6255 17.6128 20.5969 17.518 20.5389L12.793 17.6539C12.7048 17.6001 12.6034 17.5717 12.5 17.5717C12.3967 17.5717 12.2953 17.6001 12.207 17.6539L7.48203 20.5399C7.38729 20.5979 7.27748 20.6265 7.16649 20.6221C7.05549 20.6178 6.94828 20.5806 6.8584 20.5153C6.76851 20.45 6.69999 20.3596 6.66148 20.2554C6.62297 20.1512 6.6162 20.0379 6.64203 19.9299L7.92703 14.5439C7.95086 14.4433 7.94648 14.3381 7.91437 14.2398C7.88226 14.1415 7.82366 14.054 7.74503 13.9869L3.54103 10.3849C3.45684 10.3125 3.39594 10.2169 3.36598 10.1099C3.33602 10.003 3.33834 9.88965 3.37264 9.78406C3.40695 9.67846 3.47172 9.58536 3.55879 9.51648C3.64587 9.44759 3.75137 9.40599 3.86203 9.39691L9.38003 8.95491C9.48328 8.94666 9.58225 8.91009 9.66606 8.84922C9.74986 8.78835 9.81525 8.70554 9.85503 8.60991L11.98 3.49891Z" fill="#FCB83B" stroke="#FCB83B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </h5>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="details">
+                                            <h5 class="green-txt">Free</h5>
+                                            <p>I am a Chief Developer with demonstrated experience in building pixel-perfect websites and mobile apps in ed-tech, fin-tech and eCommerce companies.  I have worked with WhiteHatJr, Geekster, SMart Audit and Relevel By Unacademy.......</p>
+                                            <div class="button-wrpp">
+                                                <button class="light-yellow">Mern Stack</button>
+                                                <button class="light-yellow">Gatsby</button>
+                                                <button class="light-yellow">Blockchain</button>
+                                                <button class="light-yellow">React Navtive</button>
+                                            </div>
+                                            <div class="req-view-btn">
+                                                <a href="" class="req-btn">Request a call</a>
+                                                <a href="" class="view-btn">View Profile</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <form style="display:none" id="form2">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="small-card">
+                                    <h5 class="green-txt">Free</h5>
+                                    <img src="assets/img/small-card-avtar.png" alt="">
+                                    <h5>Utkarshini Arora</h5>
+                                    <p>Associate Software Engineer</p>
+                                    <h5>5.0
+                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.9799 3.499C12.0222 3.39583 12.0942 3.30758 12.1868 3.24546C12.2794 3.18334 12.3884 3.15018 12.4999 3.15018C12.6114 3.15018 12.7204 3.18334 12.813 3.24546C12.9056 3.30758 12.9776 3.39583 13.0199 3.499L15.1449 8.61C15.1847 8.70564 15.2501 8.78844 15.3339 8.84931C15.4177 8.91018 15.5167 8.94675 15.6199 8.955L21.1379 9.397C21.6369 9.437 21.8389 10.06 21.4589 10.385L17.2549 13.987C17.1764 14.0542 17.1178 14.1417 17.0857 14.24C17.0536 14.3382 17.0492 14.4434 17.0729 14.544L18.3579 19.929C18.3837 20.037 18.377 20.1503 18.3385 20.2545C18.2999 20.3587 18.2314 20.4491 18.1415 20.5144C18.0517 20.5797 17.9444 20.6169 17.8335 20.6212C17.7225 20.6256 17.6126 20.597 17.5179 20.539L12.7929 17.654C12.7046 17.6002 12.6033 17.5717 12.4999 17.5717C12.3965 17.5717 12.2952 17.6002 12.2069 17.654L7.48191 20.54C7.38716 20.598 7.27736 20.6266 7.16636 20.6222C7.05537 20.6179 6.94816 20.5807 6.85827 20.5154C6.76839 20.4501 6.69987 20.3597 6.66136 20.2555C6.62285 20.1513 6.61608 20.038 6.64191 19.93L7.92691 14.544C7.95074 14.4434 7.94636 14.3382 7.91425 14.2399C7.88214 14.1416 7.82354 14.0541 7.74491 13.987L3.54091 10.385C3.45672 10.3126 3.39582 10.2169 3.36586 10.11C3.3359 10.0031 3.33821 9.88974 3.37252 9.78415C3.40683 9.67855 3.4716 9.58546 3.55867 9.51657C3.64575 9.44769 3.75125 9.40609 3.86191 9.397L9.37991 8.955C9.48316 8.94675 9.58213 8.91018 9.66593 8.84931C9.74974 8.78844 9.81513 8.70564 9.85491 8.61L11.9799 3.499Z" fill="#FCB83B" stroke="#FCB83B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>    
+                                    </h5>
+                                    <hr>
+                                    <div class="detailss">
+                                        <p>I am currently working at DXC Technology as Associate Software Engineer and currently in VIT University (Formalities left) and have done specialisation in ....</p>
+                                        <div class="button-wrpp">
+                                            <button class="light-yellow">Mern Stack</button>
+                                            <button class="light-yellow">Gatsby</button>
+                                            <button class="light-yellow">Blockchain</button>
+                                            <button class="light-yellow">React Navtive</button>
+                                        </div>
+                                        <div class="req-view-btn">
+                                            <a href="" class="req-btn">Request a call</a>
+                                            <a href="view-profile.html" class="view-btn">View Profile</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="small-card">
+                                    <h5 class="green-txt">Free</h5>
+                                    <img src="assets/img/uttkarsh-small.png" alt="">
+                                    <h5>Uttkarsh Singh</h5>
+                                    <p>Associate Software Engineer</p>
+                                    <h5>5.0
+                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.9799 3.499C12.0222 3.39583 12.0942 3.30758 12.1868 3.24546C12.2794 3.18334 12.3884 3.15018 12.4999 3.15018C12.6114 3.15018 12.7204 3.18334 12.813 3.24546C12.9056 3.30758 12.9776 3.39583 13.0199 3.499L15.1449 8.61C15.1847 8.70564 15.2501 8.78844 15.3339 8.84931C15.4177 8.91018 15.5167 8.94675 15.6199 8.955L21.1379 9.397C21.6369 9.437 21.8389 10.06 21.4589 10.385L17.2549 13.987C17.1764 14.0542 17.1178 14.1417 17.0857 14.24C17.0536 14.3382 17.0492 14.4434 17.0729 14.544L18.3579 19.929C18.3837 20.037 18.377 20.1503 18.3385 20.2545C18.2999 20.3587 18.2314 20.4491 18.1415 20.5144C18.0517 20.5797 17.9444 20.6169 17.8335 20.6212C17.7225 20.6256 17.6126 20.597 17.5179 20.539L12.7929 17.654C12.7046 17.6002 12.6033 17.5717 12.4999 17.5717C12.3965 17.5717 12.2952 17.6002 12.2069 17.654L7.48191 20.54C7.38716 20.598 7.27736 20.6266 7.16636 20.6222C7.05537 20.6179 6.94816 20.5807 6.85827 20.5154C6.76839 20.4501 6.69987 20.3597 6.66136 20.2555C6.62285 20.1513 6.61608 20.038 6.64191 19.93L7.92691 14.544C7.95074 14.4434 7.94636 14.3382 7.91425 14.2399C7.88214 14.1416 7.82354 14.0541 7.74491 13.987L3.54091 10.385C3.45672 10.3126 3.39582 10.2169 3.36586 10.11C3.3359 10.0031 3.33821 9.88974 3.37252 9.78415C3.40683 9.67855 3.4716 9.58546 3.55867 9.51657C3.64575 9.44769 3.75125 9.40609 3.86191 9.397L9.37991 8.955C9.48316 8.94675 9.58213 8.91018 9.66593 8.84931C9.74974 8.78844 9.81513 8.70564 9.85491 8.61L11.9799 3.499Z" fill="#FCB83B" stroke="#FCB83B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>    
+                                    </h5>
+                                    <hr>
+                                    <div class="detailss">
+                                        <p>I am currently working at DXC Technology as Associate Software Engineer and currently in VIT University (Formalities left) and have done specialisation in....</p>
+                                        <div class="button-wrpp">
+                                            <button class="light-yellow">Mern Stack</button>
+                                            <button class="light-yellow">Gatsby</button>
+                                            <button class="light-yellow">Blockchain</button>
+                                            <button class="light-yellow">React Navtive</button>
+                                        </div>
+                                        <div class="req-view-btn">
+                                            <a href="" class="req-btn">Request a call</a>
+                                            <a href="" class="view-btn">View Profile</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="small-card">
+                                    <h5 class="green-txt">Free</h5>
+                                    <img src="assets/img/small-card-avtar.png" alt="">
+                                    <h5>Utkarshini Arora</h5>
+                                    <p>Associate Software Engineer</p>
+                                    <h5>5.0
+                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.9799 3.499C12.0222 3.39583 12.0942 3.30758 12.1868 3.24546C12.2794 3.18334 12.3884 3.15018 12.4999 3.15018C12.6114 3.15018 12.7204 3.18334 12.813 3.24546C12.9056 3.30758 12.9776 3.39583 13.0199 3.499L15.1449 8.61C15.1847 8.70564 15.2501 8.78844 15.3339 8.84931C15.4177 8.91018 15.5167 8.94675 15.6199 8.955L21.1379 9.397C21.6369 9.437 21.8389 10.06 21.4589 10.385L17.2549 13.987C17.1764 14.0542 17.1178 14.1417 17.0857 14.24C17.0536 14.3382 17.0492 14.4434 17.0729 14.544L18.3579 19.929C18.3837 20.037 18.377 20.1503 18.3385 20.2545C18.2999 20.3587 18.2314 20.4491 18.1415 20.5144C18.0517 20.5797 17.9444 20.6169 17.8335 20.6212C17.7225 20.6256 17.6126 20.597 17.5179 20.539L12.7929 17.654C12.7046 17.6002 12.6033 17.5717 12.4999 17.5717C12.3965 17.5717 12.2952 17.6002 12.2069 17.654L7.48191 20.54C7.38716 20.598 7.27736 20.6266 7.16636 20.6222C7.05537 20.6179 6.94816 20.5807 6.85827 20.5154C6.76839 20.4501 6.69987 20.3597 6.66136 20.2555C6.62285 20.1513 6.61608 20.038 6.64191 19.93L7.92691 14.544C7.95074 14.4434 7.94636 14.3382 7.91425 14.2399C7.88214 14.1416 7.82354 14.0541 7.74491 13.987L3.54091 10.385C3.45672 10.3126 3.39582 10.2169 3.36586 10.11C3.3359 10.0031 3.33821 9.88974 3.37252 9.78415C3.40683 9.67855 3.4716 9.58546 3.55867 9.51657C3.64575 9.44769 3.75125 9.40609 3.86191 9.397L9.37991 8.955C9.48316 8.94675 9.58213 8.91018 9.66593 8.84931C9.74974 8.78844 9.81513 8.70564 9.85491 8.61L11.9799 3.499Z" fill="#FCB83B" stroke="#FCB83B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>    
+                                    </h5>
+                                    <hr>
+                                    <div class="detailss">
+                                        <p>I am currently working at DXC Technology as Associate Software Engineer and currently in VIT University (Formalities left) and have done specialisation in ....</p>
+                                        <div class="button-wrpp">
+                                            <button class="light-yellow">Mern Stack</button>
+                                            <button class="light-yellow">Gatsby</button>
+                                            <button class="light-yellow">Blockchain</button>
+                                            <button class="light-yellow">React Navtive</button>
+                                        </div>
+                                        <div class="req-view-btn">
+                                            <a href="" class="req-btn">Request a call</a>
+                                            <a href="" class="view-btn">View Profile</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <div class="small-card">
+                                    <h5 class="green-txt">Free</h5>
+                                    <img src="assets/img/uttkarsh-small.png" alt="">
+                                    <h5>Uttkarsh Singh</h5>
+                                    <p>Associate Software Engineer</p>
+                                    <h5>5.0
+                                        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.9799 3.499C12.0222 3.39583 12.0942 3.30758 12.1868 3.24546C12.2794 3.18334 12.3884 3.15018 12.4999 3.15018C12.6114 3.15018 12.7204 3.18334 12.813 3.24546C12.9056 3.30758 12.9776 3.39583 13.0199 3.499L15.1449 8.61C15.1847 8.70564 15.2501 8.78844 15.3339 8.84931C15.4177 8.91018 15.5167 8.94675 15.6199 8.955L21.1379 9.397C21.6369 9.437 21.8389 10.06 21.4589 10.385L17.2549 13.987C17.1764 14.0542 17.1178 14.1417 17.0857 14.24C17.0536 14.3382 17.0492 14.4434 17.0729 14.544L18.3579 19.929C18.3837 20.037 18.377 20.1503 18.3385 20.2545C18.2999 20.3587 18.2314 20.4491 18.1415 20.5144C18.0517 20.5797 17.9444 20.6169 17.8335 20.6212C17.7225 20.6256 17.6126 20.597 17.5179 20.539L12.7929 17.654C12.7046 17.6002 12.6033 17.5717 12.4999 17.5717C12.3965 17.5717 12.2952 17.6002 12.2069 17.654L7.48191 20.54C7.38716 20.598 7.27736 20.6266 7.16636 20.6222C7.05537 20.6179 6.94816 20.5807 6.85827 20.5154C6.76839 20.4501 6.69987 20.3597 6.66136 20.2555C6.62285 20.1513 6.61608 20.038 6.64191 19.93L7.92691 14.544C7.95074 14.4434 7.94636 14.3382 7.91425 14.2399C7.88214 14.1416 7.82354 14.0541 7.74491 13.987L3.54091 10.385C3.45672 10.3126 3.39582 10.2169 3.36586 10.11C3.3359 10.0031 3.33821 9.88974 3.37252 9.78415C3.40683 9.67855 3.4716 9.58546 3.55867 9.51657C3.64575 9.44769 3.75125 9.40609 3.86191 9.397L9.37991 8.955C9.48316 8.94675 9.58213 8.91018 9.66593 8.84931C9.74974 8.78844 9.81513 8.70564 9.85491 8.61L11.9799 3.499Z" fill="#FCB83B" stroke="#FCB83B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>    
+                                    </h5>
+                                    <hr>
+                                    <div class="detailss">
+                                        <p>I am currently working at DXC Technology as Associate Software Engineer and currently in VIT University (Formalities left) and have done specialisation in....</p>
+                                        <div class="button-wrpp">
+                                            <button class="light-yellow">Mern Stack</button>
+                                            <button class="light-yellow">Gatsby</button>
+                                            <button class="light-yellow">Blockchain</button>
+                                            <button class="light-yellow">React Navtive</button>
+                                        </div>
+                                        <div class="req-view-btn">
+                                            <a href="" class="req-btn">Request a call</a>
+                                            <a href="" class="view-btn">View Profile</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.22 12.7199C8.07931 12.5793 8.00018 12.3887 8 12.1899V11.8099C8.0023 11.6114 8.08112 11.4216 8.22 11.2799L13.36 6.14985C13.4539 6.0552 13.5817 6.00195 13.715 6.00195C13.8483 6.00195 13.9761 6.0552 14.07 6.14985L14.78 6.85985C14.8741 6.95202 14.9271 7.07816 14.9271 7.20985C14.9271 7.34154 14.8741 7.46769 14.78 7.55985L10.33 11.9999L14.78 16.4399C14.8747 16.5337 14.9279 16.6615 14.9279 16.7949C14.9279 16.9282 14.8747 17.056 14.78 17.1499L14.07 17.8499C13.9761 17.9445 13.8483 17.9978 13.715 17.9978C13.5817 17.9978 13.4539 17.9445 13.36 17.8499L8.22 12.7199Z" fill="#1FA95B"/>
+                    </svg>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.78 12.7199C15.9207 12.5793 15.9998 12.3887 16 12.1899V11.8099C15.9977 11.6114 15.9189 11.4216 15.78 11.2799L10.64 6.14985C10.5461 6.0552 10.4183 6.00195 10.285 6.00195C10.1517 6.00195 10.0239 6.0552 9.93 6.14985L9.22 6.85985C9.12594 6.95202 9.07293 7.07816 9.07293 7.20985C9.07293 7.34154 9.12594 7.46769 9.22 7.55985L13.67 11.9999L9.22 16.4399C9.12534 16.5337 9.0721 16.6615 9.0721 16.7949C9.0721 16.9282 9.12534 17.056 9.22 17.1499L9.93 17.8499C10.0239 17.9445 10.1517 17.9978 10.285 17.9978C10.4183 17.9978 10.5461 17.9445 10.64 17.8499L15.78 12.7199Z" fill="#1FA95B"/>
+                    </svg>
+                    </a>
+                  </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+  </div>
+
+  <!-- Search sort end  -->
+
+
+
+
+
+
+
+
+
+   <!-- Footer sec start  -->
+
+    <footer class="n-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="logo-wrpp">
+              <img src="assets/img/footer-logo.png" alt="">
+              <p>Right and Relevant advice 
+                just when you need the most</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <h5 class="title">Platform</h5>
+            <a href="" class="link">Mentorship</a>
+            <a href="" class="link">About</a>
+            <a href="" class="link">Pricing</a>
+            <a href="" class="link">Become a mentor</a>
+            <a href="" class="link">Events</a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <h5 class="title">Company</h5>
+            <a href="" class="link">Privacy</a>
+            <a href="" class="link">Cookie Policy</a>
+            <a href="" class="link">Terms & Conditions</a>
+            <a href="contact-us.html" class="link">Write for us</a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <h5 class="title">Contact Us</h5>
+            <p class="svg-p">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 10.5C15 11.2956 14.6839 12.0587 14.1213 12.6213C13.5587 13.1839 12.7956 13.5 12 13.5C11.2044 13.5 10.4413 13.1839 9.87868 12.6213C9.31607 12.0587 9 11.2956 9 10.5C9 9.70435 9.31607 8.94129 9.87868 8.37868C10.4413 7.81607 11.2044 7.5 12 7.5C12.7956 7.5 13.5587 7.81607 14.1213 8.37868C14.6839 8.94129 15 9.70435 15 10.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M19.5 10.5C19.5 17.642 12 21.75 12 21.75C12 21.75 4.5 17.642 4.5 10.5C4.5 8.51088 5.29018 6.60322 6.6967 5.1967C8.10322 3.79018 10.0109 3 12 3C13.9891 3 15.8968 3.79018 17.3033 5.1967C18.7098 6.60322 19.5 8.51088 19.5 10.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              3rd Floor. M.P. Audyogik Kendra Vikas Nigam (J) Ltd Howbagh,  MCI Colony, Gorakhpur, Madhya Pradesh 482001
+            </p>
+            <p class="svg-p">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.75 6.75V17.25C21.75 17.8467 21.5129 18.419 21.091 18.841C20.669 19.2629 20.0967 19.5 19.5 19.5H4.5C3.90326 19.5 3.33097 19.2629 2.90901 18.841C2.48705 18.419 2.25 17.8467 2.25 17.25V6.75M21.75 6.75C21.75 6.15326 21.5129 5.58097 21.091 5.15901C20.669 4.73705 20.0967 4.5 19.5 4.5H4.5C3.90326 4.5 3.33097 4.73705 2.90901 5.15901C2.48705 5.58097 2.25 6.15326 2.25 6.75M21.75 6.75V6.993C21.75 7.37715 21.6517 7.75491 21.4644 8.0903C21.2771 8.42569 21.0071 8.70754 20.68 8.909L13.18 13.524C12.8252 13.7425 12.4167 13.8582 12 13.8582C11.5833 13.8582 11.1748 13.7425 10.82 13.524L3.32 8.91C2.99292 8.70854 2.72287 8.42669 2.53557 8.0913C2.34827 7.75591 2.24996 7.37815 2.25 6.994V6.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              Info@neunetics.com
+            </p>
+            <div class="social-div">
+              <a href="">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.575 6.04722C20.855 6.35922 20.111 6.57522 19.319 6.67122C20.135 6.19122 20.759 5.42322 21.047 4.48722C20.279 4.94322 19.439 5.25522 18.551 5.44722C17.831 4.67922 16.799 4.19922 15.671 4.19922C13.487 4.19922 11.735 5.97522 11.735 8.13522C11.735 8.44722 11.759 8.73522 11.831 9.02322C8.567 8.87922 5.687 7.29522 3.743 4.91922C2.351 7.41522 3.911 9.47922 4.943 10.1752C4.319 10.1752 3.695 9.98322 3.167 9.69522C3.167 11.6392 4.535 13.2472 6.311 13.6072C5.927 13.7272 5.063 13.7992 4.535 13.6792C5.039 15.2392 6.503 16.3912 8.207 16.4152C6.863 17.4712 4.895 18.3112 2.375 18.0472C4.127 19.1752 6.191 19.8232 8.423 19.8232C15.671 19.8232 19.607 13.8232 19.607 8.63922C19.607 8.47122 19.607 8.30322 19.583 8.13522C20.399 7.53522 21.071 6.83922 21.575 6.04722Z" fill="white"/>
+                </svg>
+              </a>
+              <a href="">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.8594 24V13.0533H17.5323L18.0833 8.78588H13.8594V6.06176C13.8594 4.82664 14.201 3.98492 15.9742 3.98492L18.232 3.98399V0.167076C17.8416 0.116334 16.5012 0 14.9412 0C11.6837 0 9.45356 1.98836 9.45356 5.63912V8.78588H5.76953V13.0533H9.45356V24H13.8594Z" fill="white"/>
+                </svg>
+              </a>
+              <a href="">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21.5994 21.6007V14.5687C21.5994 11.1127 20.8554 8.47266 16.8234 8.47266C14.8794 8.47266 13.5834 9.52866 13.0554 10.5367H13.0074V8.78466H9.19141V21.6007H13.1754V15.2407C13.1754 13.5607 13.4874 11.9527 15.5514 11.9527C17.5914 11.9527 17.6154 13.8487 17.6154 15.3367V21.5767H21.5994V21.6007Z" fill="white"/>
+                  <path d="M2.71094 8.78516H6.69494V21.6012H2.71094V8.78516Z" fill="white"/>
+                  <path d="M4.70244 2.40039C3.43044 2.40039 2.39844 3.43239 2.39844 4.70439C2.39844 5.97639 3.43044 7.03239 4.70244 7.03239C5.97444 7.03239 7.00644 5.97639 7.00644 4.70439C7.00644 3.43239 5.97444 2.40039 4.70244 2.40039Z" fill="white"/>
+                </svg>
+              </a>
+              <a href="">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_15_66776)">
+                  <path d="M18 0H6C2.64 0 0 2.64 0 6V18C0 21.36 2.64 24 6 24H18C21.36 24 24 21.36 24 18V6C24 2.64 21.36 0 18 0ZM21.6 18C21.6 20.04 20.04 21.6 18 21.6H6C3.96 21.6 2.4 20.04 2.4 18V6C2.4 3.96 3.96 2.4 6 2.4H18C20.04 2.4 21.6 3.96 21.6 6V18Z" fill="white"/>
+                  <path d="M12 6C8.64 6 6 8.64 6 12C6 15.36 8.64 18 12 18C15.36 18 18 15.36 18 12C18 8.64 15.36 6 12 6ZM12 15.6C9.96 15.6 8.4 14.04 8.4 12C8.4 9.96 9.96 8.4 12 8.4C14.04 8.4 15.6 9.96 15.6 12C15.6 14.04 14.04 15.6 12 15.6Z" fill="white"/>
+                  <path d="M18.0008 7.20078C18.6635 7.20078 19.2008 6.66352 19.2008 6.00078C19.2008 5.33804 18.6635 4.80078 18.0008 4.80078C17.338 4.80078 16.8008 5.33804 16.8008 6.00078C16.8008 6.66352 17.338 7.20078 18.0008 7.20078Z" fill="white"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_15_66776">
+                  <rect width="24" height="24" fill="white"/>
+                  </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copi-right">
+        <p>© Copyright 2021 <b>Neunetics.</b>  All rights reserved.</p>
+      </div>
+    </footer>
+
+   <!-- Footer sec end  -->
+
+
+
+  <!-- jQueary link  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <!-- Owl slider js  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+
+  <!-- Bootstrap js -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+  <script>
+    // navbar js 
+    $(window).scroll(function(){
+      if($(this).scrollTop() > 10){
+          $('.navbar').addClass('sticky')
+      } else{
+          $('.navbar').removeClass('sticky')
+      }
+    });
+
+
+    // dropdown JS 
+    
+    // create a reference to the select element called "dropdown"
+    const dropdown = document.querySelector('select');
+    // everything in this block is what happens when the dropdown value changes
+    dropdown.onchange = function() {
+        // create references to the 2 forms, based on their id's
+        const form1 = document.querySelector('#form1');
+        const form2 = document.querySelector('#form2');        
+        // if you selected the first option, show form 1 and hide form 2
+        if (dropdown.selectedIndex === 1) {
+            form1.style.display = "block";
+            form2.style.display = "none";
+        }
+        // if you selected the second option, show form 2 and hide form 1
+        else {
+            form1.style.display = "none";
+            form2.style.display = "block";
+        }
+    }
+
+
+  </script>
+
+
+</body>
+</html>

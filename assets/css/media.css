@@ -1,0 +1,1001 @@
+@media only screen and (max-width: 1700px) {
+    .practical-advice .card-wrpp {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
+    @media only screen and (max-width: 1400px) {
+    .practical-advice .card-wrpp {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .why-should .card-wrpp {
+        height: 500px;
+    }
+
+    .why-should .card-wrpp p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    .container {
+        max-width: 1280px;
+    }
+
+    /* Landing page css */
+    .lookind-sec {
+        padding: 120px 0 60px 0;
+    }
+
+    .lookind-sec .image {
+        padding-left: 0px;
+    }
+
+    .lookind-sec .image img {
+        height: 550px;
+        width: auto;
+        float: right;
+    }
+
+    .lookind-sec .details h1 {
+        font-size: 52px;
+    }
+
+    .lookind-sec .line-text::after {
+        background-size: 300px 14px;
+        width: 240px;
+    }
+
+    .from-leaders h2 {
+        font-size: 30px;
+    }
+
+    .from-leaders .imge-wrpp img {
+        max-width: 120px;
+        height: auto;
+    }
+
+    .from-leaders {
+        padding: 40px 0;
+    }
+
+    .welc-neunetics .details {
+        padding-left: 20px;
+    }
+
+    .welc-neunetics .details h2 {
+        font-size: 34px;
+        margin-bottom: 24px;
+    }
+
+    .welc-neunetics .line-text::after {
+        background-size: 360px 14px;
+        width: 130px;
+    }
+
+    .core-feature h2 {
+        font-size: 34px;
+        margin-bottom: 40px;
+    }
+
+    .core-feature .line-text::after {
+        background-size: 200px 14px;
+        width: 158px;
+    }
+
+    .core-feature .check-divv .check-wrpp {
+        height: 90px;
+        padding-left: 15px;
+    }
+
+    .core-feature .image-div img {
+        height: 650px;
+    }
+
+    .plan-pricing .plan-card {
+        margin: 0;
+        padding: 30px;
+    }
+
+    .plan-pricing h2
+    {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+    .plan-pricing .price-t {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+
+    .plan-pricing .line-text::after
+    {
+        width: 290px;
+    }
+
+    .three-card
+    {
+        padding: 50px 0;
+    }
+
+    .mentorship,
+    .happy-user,
+    .core-feature,
+    .plan-pricing,
+    .welc-neunetics,
+    .practical-advice {
+        padding: 60px 0;
+    }
+
+    .happy-user .item {
+        min-height: 302px;
+    }
+
+    .happy-user .item .imagedetails {
+        min-width: 170px;
+    }
+
+    .signing-div {
+        padding-top: 60px;
+    }
+
+    .signing-div .bgg h5 {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 26px;
+    }
+
+    .signing-div .search-btn {
+        margin: auto;
+    }
+
+    .main-title-pricing h2 {
+        margin-bottom: 50px;
+    }
+
+    .find-mentor-wrpp, .personal-c, .title-divv
+    {
+        padding: 130px 0 60px 0;
+    }
+
+    .main-title-pricing
+    {
+        padding-top: 130px;
+    }
+
+    .find-mentor-wrpp .search-btn {
+        max-width: 600px;
+        min-width: 600px;
+    }
+
+    .sigh-up-p-wrp
+    {
+        padding: 40px 0;
+    }
+
+    .plan-pricing .small-h
+    {
+        margin-bottom: 40px;
+    }
+
+    .log-in .details
+    {
+        margin-left: 40px;
+    }
+    .log-in .imge
+    {
+        padding-right: 90px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .practical-advice .card-wrpp {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .lookind-sec .details h1
+    {
+        font-size: 48px;    
+    }
+    .happy-user .item
+    {
+        padding: 30px;
+    }
+
+    .log-in .imge
+    {
+        padding-right: 40px;
+    }
+    .log-in .imge img{
+        max-width: 100%;
+    }
+    
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1285px) {
+    .navbar-expand-lg .navbar-nav {
+        gap: 0;
+    }
+
+    .navbar .btn-div .bg-btn {
+        font-size: 15px;
+        padding: 10px 14px;
+    }
+
+    .navbar .btn-div .link-btn {
+        font-size: 15px;
+        padding: 10px 14px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .practical-advice .card-wrpp .cardd {
+        padding: 30px;
+    }
+
+    .find-mentor-wrpp .search-btn {
+        max-width: 350px;
+        min-width: 350px;
+    }
+
+    .navbar .navbar-collapse {
+        position: fixed;
+        top: 90px;
+        left: 0;
+        background: #f0fff6;
+        right: 0;
+        z-index: 999;
+        padding: 0 12px;
+    }
+
+    .navbar .navbar-toggler {
+        position: fixed;
+        right: 10px;
+        top: 30px;
+        border: none;
+        z-index: 999;
+    }
+
+    .navbar .btn-div {
+        position: fixed;
+        right: 70px;
+        top: 37px;
+    }
+
+    .navbar .btn-div .bg-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .navbar .btn-div .link-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link:after {
+        content: none;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        gap: 10px;
+    }
+
+    .navbar .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .lookind-sec .image img {
+        float: none;
+    }
+
+    .lookind-sec .image {
+        text-align: center;
+        margin-top: 45px;
+    }
+
+    .lookind-sec .details h1 svg {
+        display: none;
+    }
+
+    .line-text::after {
+        content: none;
+    }
+
+    .from-leaders h2 {
+        margin-bottom: 26px;
+    }
+
+    .from-leaders .imge-wrpp img {
+        max-width: 80px;
+    }
+
+    .welc-neunetics .image-div {
+        text-align: center;
+    }
+
+    .welc-neunetics .image-div img {
+        max-width: 525px;
+        margin-bottom: 40px;
+    }
+
+    .core-feature .check-divv .check-wrpp {
+        margin-bottom: 20px;
+    }
+
+    .core-feature .col-lg-6.pe-0 {
+        padding-right: 15px !important;
+    }
+
+    .core-feature .l-screen {
+        display: none;
+    }
+
+    .core-feature .s-screen {
+        display: block;
+    }
+
+    .core-feature .image-div img {
+        height: 600px;
+        width: auto;
+        margin: auto;
+        margin-top: 45px;
+    }
+
+    .plan-pricing .first-card {
+        float: none;
+    }
+
+    .plan-pricing {
+        text-align: center;
+    }
+
+    .plan-pricing .plan-card {
+        margin: auto;
+        margin-bottom: 20px;
+        max-width: 490px;
+    }
+
+    .plan-pricing h2 {
+        margin-bottom: 15px;
+    }
+
+    .plan-pricing .small-h {
+        margin-bottom: 40px;
+    }
+
+    .happy-user .item {
+        display: block;
+    }
+
+    .happy-user .text-divv {
+        border-left: none;
+    }
+
+    .happy-user .text-divv p {
+        margin-left: 0;
+    }
+
+    .happy-user .item {
+        padding: 15px;
+    }
+
+    .find-mentor-wrpp .long-card {
+        padding: 30px;
+    }
+
+    .find-mentor-wrpp .long-card .req-view-btn {
+        position: inherit;
+    }
+
+    .find-mentor-wrpp .long-card .details {
+        border-left: none;
+    }
+
+    .find-mentor-wrpp .long-card .details p,
+    .find-mentor-wrpp .long-card .details .button-wrpp {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .find-mentor-wrpp .long-card .details .green-txt {
+        top: 20px;
+        right: 20px;
+    }
+
+    .banner-sec .banner-bgg {
+        text-align: center;
+    }
+
+    .banner-sec .profile-ratting {
+        position: inherit;
+    }
+
+    .banner-sec {
+        padding: 100px 0 20px 0;
+    }
+
+    .profile-about {
+        padding: 45px 0;
+    }
+
+    .profile-about .left-wrpp {
+        max-width: 100%;
+    }
+
+    .profile-about .expetises-wrrp,
+    .profile-about .experiance-wrrp {
+        padding-top: 30px;
+    }
+
+    .profile-about h5 {
+        margin-bottom: 10px;
+    }
+
+    .profile-about .experiance-wrrp {
+        margin-bottom: 75px;
+    }
+
+    .profile-about .green-btn {
+        float: none;
+    }
+
+    .profile-about .mentorship-card {
+        margin: auto;
+        margin-top: 80px;
+    }
+
+    .profile-about .social-main {
+        text-align: center;
+    }
+
+    .profile-about .social-link {
+        justify-content: center;
+    }
+
+    .personal-c .text-div h1,
+    .main-title-pricing h2 {
+        font-size: 34px;
+    }
+
+    .personal-c .text-div p {
+        font-size: 18px;
+    }
+
+    .personal-c .text-div {
+        max-width: 800px;
+    }
+
+    .personal-c {
+        padding: 120px 0 40px 0;
+    }
+
+   
+
+    .sigh-up-p-wrp .card-wrpp .imgg-div {
+        text-align: center;
+    }
+
+    .sigh-up-p-wrp .card-wrpp .imgg-div img {
+        max-width: 400px;
+    }
+
+    .sigh-up-p-wrp {
+        padding: 60px 0;
+    }
+
+    .sigh-up-p-wrp .card-wrpp,
+    .chose-expertice h2,
+    .chose-expertice .text-btn-div {
+        margin-bottom: 50px;
+    }
+
+    .practical-advice .card-wrpp {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .practical-advice .card-wrpp .cardd {
+        width: 270px;
+    }
+
+    .chose-expertice h2 {
+        font-size: 34px;
+    }
+
+    .three-card {
+        padding: 60px 0;
+    }
+
+    .three-card .card-wrpp h1 {
+        font-size: 34px;
+    }
+
+    .three-card .card-wrpp p {
+        font-size: 16px;
+    }
+
+    .practical-advice h1, .aboutus h2, .aboutline .details h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .aboutus h2
+    {
+        margin-bottom: 15px;
+    }
+
+    .why-should .card-wrpp {
+        height: 450px;
+    }
+    
+    .title-divv {
+        padding: 120px 0 60px 0;
+    }
+
+    .title-divv .help-other h1, .why-should h2, .how-apply h1, .asked-q-div .wrpppa h2
+    {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    .why-should, .how-apply, .asked-q-div
+    {
+        padding: 50px 0;
+    }
+
+    .issue-wrpp img
+    {
+        max-width: 400px;
+    }
+
+    .search-btn .form-control
+    {
+        height: 60px;
+        padding-right: 155px;
+    }
+    .green-btn
+    {
+        padding: 10px 25px;
+    }
+    .search-btn .aro-btn .line
+    {
+        bottom: 13px;right: 132px;
+    }
+
+    .log-in .left-color
+    {
+        width: 100%;
+        max-height: 580px;
+        min-height: auto;
+    }
+    
+    .log-in .imge
+    {
+        max-height: 570px;
+        justify-content: center;
+    }
+    .log-in
+    {
+        display: block;
+    }
+    .log-in .imge
+    {
+        padding-right: 0;
+    }
+
+    .log-in .right-con
+    {
+        width: 100%;
+        max-height: 100%;
+        margin-top: 0;
+    }
+    .log-in .details
+    {
+        margin: auto;
+        max-width: 500px;
+    }
+
+    .log-in .details .or-div p
+    {        
+        background: #f6fef7;
+    }
+
+    .log-in .details h3
+    {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{   
+    .log-in .imge
+    {
+        max-height: 410px;
+    }
+    .log-in .imge img
+    {
+        max-height: 310px;
+    }
+    .log-in .details h3
+    {
+        font-size: 32px;
+        margin-top: 40px;
+    }
+    .log-in .details form .input-main
+    {
+        margin-top: 20px;
+    }
+    .log-in .details form .form-control
+    {
+        padding: 8px 20px;
+    }
+    .log-in .details form .input-main label
+    {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .log-in .details .rem-for
+    {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .log-in .details .or-div p
+    {
+        background: #f5fff8;
+    }
+    .log-in .details .social-btn
+    {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    .log-in .details .or-div
+    {
+        margin: 30px 0 20px 0;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar .navbar-brand .smallscreen {
+        display: block;
+    }
+
+    .navbar .navbar-brand .fullscreen {
+        display: none;
+    }
+
+    .navbar .btn-div .bg-btn,
+    .navbar .btn-div .link-btn {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .lookind-sec .details h1,
+    .welc-neunetics .details h2,
+    .core-feature h2,
+    .plan-pricing h2,
+    .mentorship h2,
+    .happy-user h2,
+    .plan-pricing .price-t {
+        font-size: 30px;
+    }
+
+    .lookind-sec .details p,
+    .welc-neunetics .details h5,
+    .plan-pricing .small-h,
+    .mentorship .small-h,
+    .happy-user .small-h {
+        font-size: 20px;
+    }
+
+    .signing-div .bgg h5 {
+        font-size: 24px;
+    }
+
+    .lookind-sec .image img,
+    .core-feature .image-div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .lookind-sec {
+        padding: 100px 0 35px 0;
+    }
+
+    .mentorship,
+    .happy-user,
+    .core-feature,
+    .plan-pricing,
+    .welc-neunetics,
+    .practical-advice {
+        padding: 35px 0;
+    }
+
+    .signing-div {
+        padding-top: 35px;
+    }
+
+    .signing-div .bgg,
+    .plan-pricing .plan-card {
+        padding: 20px;
+    }
+
+    .n-footer {
+        padding-top: 110px;
+    }
+
+    .find-mentor-wrpp .search-sort {
+        display: block;
+    }
+
+    .find-mentor-wrpp .search-sort select {
+        margin-top: 30px;
+    }
+
+    .find-mentor-wrpp .small-card .green-txt, .find-mentor-wrpp .long-card .details .green-txt {
+        top: 10px;
+        right: 10px;
+    }
+
+    .find-mentor-wrpp .small-card .button-wrpp .light-yellow,
+    .find-mentor-wrpp .long-card .details .light-yellow {
+        padding: 4px 6px;
+        font-size: 10px;
+        margin-right: 6px;
+    }
+
+    .find-mentor-wrpp .long-card,
+    .find-mentor-wrpp .small-card {
+        padding: 15px;
+    }
+
+    .find-mentor-wrpp .long-card .left-img img,
+    .find-mentor-wrpp .small-card img {
+        margin-bottom: 24px;
+        max-width: 150px;
+    }
+
+    .banner-sec .banner-bgg img {
+        height: 170px;
+        object-fit: cover;
+    }
+
+    .banner-sec .center-profile img {
+        max-width: 120px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .banner-sec .center-profile {
+        margin-top: -50px;
+    }
+
+    .banner-sec .center-profile h5 {
+        font-size: 22px;
+    }
+
+    .banner-sec .center-profile p {
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+
+    .banner-sec .profile-ratting h5 svg {
+        margin: 0;
+        margin-top: -5px;
+    }
+
+    .banner-sec .profile-ratting h5 {
+        font-size: 18px;
+    }
+
+    .banner-sec .profile-ratting h5 span {
+        font-size: 14px;
+    }
+
+    .profile-about h5 {
+        font-size: 20px;
+    }
+
+    .profile-about p {
+        font-size: 16px;
+    }
+
+    .profile-about .yello-btn {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .profile-about .mentorship-card {
+        padding: 20px;
+    }
+
+    .profile-about .mentorship-card h2 {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    .profile-about .mentorship-card .green-btn {
+        margin-top: 30px;
+    }
+
+    .profile-about .social-link .wrpp {
+        width: 70px;
+        height: 70px;
+    }
+
+    .chose-expertice .ex-p-btn {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .personal-c .text-div h1,
+    .chose-expertice h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .lookind-sec .details p,
+    .welc-neunetics .details h5,
+    .plan-pricing .small-h,
+    .mentorship .small-h,
+    .happy-user .small-h {
+        font-size: 20px;
+    }
+
+    .personal-c {
+        padding: 100px 0 30px 0;
+    }
+
+    .sigh-up-p-wrp {
+        padding: 30px 0;
+    }
+
+    .sigh-up-p-wrp .card-wrpp .imgg-div img {
+        max-width: 275px;
+    }
+
+    .sigh-up-p-wrp .card-wrpp .cardd-txt {
+        padding: 20px;
+    }
+
+    .sigh-up-p-wrp .card-wrpp .cardd-txt h3,
+    .main-title-pricing h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .sigh-up-p-wrp .card-wrpp .cardd-txt p {
+        font-size: 18px;
+    }
+
+    .sigh-up-p-wrp .card-main h2 {
+        font-size: 46px;
+        top: -44px;
+    }
+
+    .sigh-up-p-wrp .card-main svg {
+        display: none;
+    }
+
+    .practical-advice .card-wrpp .cardd {
+        padding: 20px;
+    }
+
+    .practical-advice .card-wrpp {
+        gap: 20px;
+    }
+
+    .practical-advice .card-wrpp {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main-title-pricing {
+        padding-top: 110px;
+    }
+
+    .title-divv .help-other h1, .why-should h2, .how-apply h1, .asked-q-div .wrpppa h2
+    {
+        font-size: 30px;
+    }
+
+    .title-divv .help-other p, .how-apply p, .asked-q-div .wrpppa p
+    {
+        font-size: 19px;
+    }
+
+    .title-divv
+    {
+        padding: 110px 0 40px 0;
+    }
+    .why-should, .how-apply, .asked-q-div
+    {
+        padding: 30px 0;
+    }
+
+    .faq-div .acc_ctrl
+    {
+        padding: 14px 10px;
+    }
+
+    .faq-div .acc_ctrl h5
+    {
+        font-size: 16px;
+    }
+    .faq-div .acc_ctrl:before, .faq-div .acc_ctrl:after
+    {
+        margin-right: 17px;
+    }
+
+    .faq-div .acc_panel p
+    {
+        font-size: 15px;
+    }
+    .faq-div .acc
+    {
+        margin: 20px 0;
+    }
+
+    .n-footer .copi-right p
+    {
+        line-height: normal;
+    }
+    .n-footer
+    {
+        padding-top: 40px;
+    }
+
+    .issue-wrpp img
+    {
+        max-width: 300px;
+    }
+    .issue-wrpp h2
+    {
+        font-size: 25px;
+    }
+    .issue-wrpp p
+    {
+        font-size: 18px;
+    }
+    .issue-wrpp
+    {
+        padding: 100px 0 60px 0;
+    }
+
+    .find-mentor-wrpp .pagination .page-link
+    {
+        width: 45px;
+        height: 45px;
+        margin-left: 10px;
+    }
+
+    .find-mentor-wrpp .pagination
+    {
+        padding: 40px 0 0;
+    }
+}
+
+
+
+
+
+/* @media only screen and (max-height: 900px)
+{
+    .lookind-sec .image
+    {
+        text-align: center;
+    }
+
+    .lookind-sec .image img
+    {
+        height: 660px;
+        width: auto;
+    }
+} */

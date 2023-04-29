@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- favicon link  -->
+    <link rel="icon" type="image/x-icon" href="assets/img/fev-icon.png">
+
+    <!-- Bootstrap link  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+
+    <!-- Font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Unbounded&display=swap" rel="stylesheet">
+
+    <!-- Owl slider css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <!-- Custom css link  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar start -->
+
+    <nav class="navbar navbar-expand-lg login-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="fullscreen" src="assets/img/main-logo.png" alt="">
+                <img class="smallscreen" src="assets/img/mian-logo-only.png" alt="">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <span class="line"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="find-a-mentor.html">Find a Mentor</a>
+                        <span class="line"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="how-it-work.html">How it Works</a>
+                        <span class="line"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                        <span class="line"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="become-a-mentor.html">Become a Mentor</a>
+                        <span class="line"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn-div">
+                <a href="#" class="link-btn">Login</a>
+                <a href="sigh-up.html" class="bg-btn">Free Signup</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Navbar end -->
+
+    <!-- Log in sec start -->
+
+    <div class="log-in">
+        <div class="left-color">
+            <div class="container-fluid">
+                <div class="imge">
+                    <img src="assets/img/login-page.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="right-con">
+            <div class="container-fluid">
+                <div class="details">
+                    <h3>Login</h3>
+                    <p>Please login in to continue!</p>
+                    <form action="">
+                        <div class="input-main">
+                            <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ex. demo@gmail.com">
+                        </div>
+                        <div class="input-main">
+                            <label for="exampleFormControlInput1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="********">
+                            <small>min. 8 character required</small>
+                        </div>
+                        <div class="rem-for">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Remember me
+                                </label>
+                            </div>
+                            <a href="" class="link">Forgot Password?</a>
+                        </div>
+                        <a href="" class="green-btn">Login</a>
+                    </form>
+    
+                    <div class="or-div">
+                        <div class="line"></div>
+                        <p>OR</p>
+                    </div>
+    
+                    <div class="social-link">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="" class="social-btn">
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M23.0025 12.2331C23.0025 11.3698 22.931 10.7398 22.7763 10.0864H12.7168V13.983H18.6215C18.5025 14.9514 17.8596 16.4097 16.4311 17.3897L16.411 17.5202L19.5917 19.9349L19.812 19.9564C21.8358 18.1247 23.0025 15.4297 23.0025 12.2331Z" fill="#2380CC"/>
+                                        <path d="M12.7159 22.5001C15.6088 22.5001 18.0373 21.5667 19.8111 19.9567L16.4302 17.39C15.5255 18.0083 14.3111 18.44 12.7159 18.44C9.88265 18.44 7.47791 16.6083 6.62069 14.0767L6.49504 14.0871L3.18778 16.5955L3.14453 16.7133C4.90641 20.1433 8.52545 22.5001 12.7159 22.5001Z" fill="#00C274"/>
+                                        <path d="M6.62095 14.0767C6.39476 13.4234 6.26386 12.7233 6.26386 12C6.26386 11.2767 6.39476 10.5767 6.60905 9.92337L6.60306 9.78423L3.25435 7.2356L3.14478 7.28667C2.41862 8.71002 2.00195 10.3084 2.00195 12C2.00195 13.6917 2.41862 15.29 3.14478 16.7133L6.62095 14.0767Z" fill="#FCB716"/>
+                                        <path d="M12.716 5.55997C14.7279 5.55997 16.085 6.41163 16.8588 7.12335L19.8826 4.23C18.0256 2.53834 15.6088 1.5 12.716 1.5C8.52548 1.5 4.90642 3.85665 3.14453 7.28662L6.60881 9.92332C7.47794 7.39166 9.88268 5.55997 12.716 5.55997Z" fill="#1FA95B"/>
+                                    </svg>
+                                    Sign in with Google
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="" class="social-btn">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12" cy="12" r="10.5" fill="url(#paint0_linear_149_71322)"/>
+                                        <path d="M15.9103 15.2112L16.3767 12.2476H13.4589V10.3252C13.4589 9.51428 13.8657 8.7233 15.1726 8.7233H16.5V6.20024C16.5 6.20024 15.2959 6 14.1452 6C11.7411 6 10.1712 7.4197 10.1712 9.98883V12.2476H7.5V15.2112H10.1712V22.3759C10.7075 22.458 11.2562 22.5 11.8151 22.5C12.374 22.5 12.9226 22.458 13.4589 22.3759V15.2112H15.9103Z" fill="white"/>
+                                        <defs>
+                                        <linearGradient id="paint0_linear_149_71322" x1="12" y1="1.5" x2="12" y2="22.4377" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#18ACFE"/>
+                                        <stop offset="1" stop-color="#0163E0"/>
+                                        </linearGradient>
+                                        </defs>
+                                    </svg>
+                                    Sign in with Facebook
+                                </a>
+                            </div>                                
+                        </div>
+                    </div>
+                    <p class="sign-up-link">Don’t have an account? <a href="sigh-up.html" class="link-btn">Sign Up</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Log in sec end -->
+
+
+
+    <!-- jQueary link  -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <!-- Owl slider js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+
+    <!-- Bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+    <script>
+        // navbar js 
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 10) {
+                $('.navbar').addClass('sticky')
+            } else {
+                $('.navbar').removeClass('sticky')
+            }
+        });
+
+    </script>
+
+
+</body>
+
+</html>
